@@ -179,17 +179,17 @@
   "projects": [
     {
       "id": 1,
-      "name": "Web Jakencaja",
-      "desc": "Website for a carton company",
-      "img": "assets/pictures/webs/website.png",
-      "url": "#"
+      "name": "Web ready",
+      "desc": "Website for calendar app",
+      "img": "assets/pictures/webs/webReady.png",
+      "url": "https://ready.so/"
     },
     {
       "id": 2,
       "name": "Angular bundle",
       "desc": "Apps developed with Angular framework",
       "img": "assets/pictures/webs/website2.webp",
-      "url": "#"
+      "url": "https://opreciaddo.github.io/angularProjects/angularProjects/"
     },
     {
       "id": 3,
