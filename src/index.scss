@@ -1,0 +1,39 @@
+:root {
+  --bs-1st: #001975;
+  --bs-2nd: #3564BA;
+  --bs-3rd: #17F2BA;
+  --bs-4th: #96F5D9;
+  --bs-5th: #A6D3FF;
+  --bs-white: #FFF;
+  --bs-lgray: #EDEDED;
+  --bs-gray: #AAAAAA;
+  --bs-dgray: #3F3F3F;
+  --bs-black: #000;
+  
+  --bs-body-color: #212529 !important;
+
+  --bs-body-font-size: 16px !important;
+  --bs-body-font-weight: 400 !important;
+  --bs-body-line-height: 1.5 !important;
+
+  body {
+    font-family: "Roboto Mono", monospace !important;
+    
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--bs-white);
+    
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--bs-dgray);
+  }
+
+  p {
+    font-size: 13px;
+  }
+}

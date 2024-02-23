@@ -1,0 +1,18 @@
+.HeaderBkg {
+  width: 100%;
+  height: 384px;
+  background: url('../../assets/hero-image/hero-image.webp') center top no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  
+  .HeaderBkg {
+    height: 484px;
+  }
+}
