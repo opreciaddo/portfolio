@@ -1,10 +1,11 @@
 // Styles
 import './App.scss';
 // Components
-import HeaderBkg from './components/HeaderBkg/HeaderBkg';
-import FooterBkg from './components/FooterBkg/FooterBkg';
-import Navbar from './components/Navbar/Navbar';
-import Sections from './components/Sections/Sections';
+import HeaderBkg from './components/HeaderBkg/HeaderBkg.component';
+import FooterBkg from './components/FooterBkg/FooterBkg.component';
+import Navbar from './components/Navbar/Navbar.component';
+import Sections from './components/Sections/Sections.component';
+
 
 function App() {
   return (

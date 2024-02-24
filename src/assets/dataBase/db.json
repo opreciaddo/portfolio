@@ -1,0 +1,202 @@
+{
+  "skills": {
+    "soft": [
+      {
+        "id": 1,
+        "snippet": "fa-solid fa-people-group",
+        "name": "Leadership",
+        "level": 2
+      },
+      {
+        "id": 2,
+        "snippet": "fa-solid fa-magnifying-glass",
+        "name": "Research",
+        "level": 3
+      },
+      {
+        "id": 3,
+        "snippet": "fa-solid fa-handshake",
+        "name": "Commitment",
+        "level": 3
+      },
+      {
+        "id": 4,
+        "snippet": "fa-solid fa-list-check",
+        "name": "Management",
+        "level": 3
+      },
+      {
+        "id": 5,
+        "snippet": "fa-solid fa-person-chalkboard",
+        "name": "Self..._Self-taught",
+        "level": 3
+      },
+      {
+        "id": 6,
+        "snippet": "fa-solid fa-person-walking-dashed-line-arrow-right",
+        "name": "Creative..._Creative Problem Solving",
+        "level": 2
+      }
+    ],
+    "hard": [
+      {
+        "id": 1,
+        "snippet": "fa-brands fa-angular",
+        "name": "Angular",
+        "level": 2
+      },
+      {
+        "id": 2,
+        "snippet": "fa-brands fa-react",
+        "name": "React",
+        "level": 2
+      },
+      {
+        "id": 3,
+        "snippet": "fa-brands fa-js",
+        "name": "JavaScript",
+        "level": 3
+      },
+      {
+        "id": 4,
+        "snippet": "alt_https://img.icons8.com/ios-filled/24/3F3F3F/typescript.png",
+        "name": "TypeScript",
+        "level": 2
+      },
+      {
+        "id": 5,
+        "snippet": "fa-regular fa-file-code",
+        "name": "HTML..._HTML & CSS",
+        "level": 3
+      },
+      {
+        "id": 6,
+        "snippet": "fa-brands fa-node-js",
+        "name": "NodeJS",
+        "level": 2
+      },
+      {
+        "id": 7,
+        "snippet": "fa-brands fa-git-alt",
+        "name": "Git..._Git & GitHub",
+        "level": 2
+      },
+      {
+        "id": 8,
+        "snippet": "fa-brands fa-bootstrap",
+        "name": "Bootstrap",
+        "level": 2
+      },
+      {
+        "id": 9,
+        "snippet": "fa-brands fa-figma",
+        "name": "Figma",
+        "level": 2
+      },
+      {
+        "id": 9,
+        "snippet": "fa-solid fa-paintbrush",
+        "name": "Illustrator",
+        "level": 2
+      },
+      {
+        "id": 10,
+        "snippet": "alt_https://img.icons8.com/ios-glyphs/24/3F3F3F/chatgpt.png",
+        "name": "ChatGPT",
+        "level": 2
+      },
+      {
+        "id": 11,
+        "snippet": "alt_https://img.icons8.com/fluency-systems-regular/24/3F3F3F/sail-boat.png",
+        "name": "Midjourney",
+        "level": 2
+      }
+    ],
+    "learning": [
+      {
+        "id": 1,
+        "snippet": "fa-solid fa-robot",
+        "name": "AI..._Artificial Intelligence",
+        "level": 0
+      },
+      {
+        "id": 2,
+        "snippet": "fa-brands fa-ethereum",
+        "name": "Web3",
+        "level": 0
+      }
+    ]
+  },
+
+  "company": [
+    {
+      "id": 1,
+      "name": "GE Digital",
+      "position": "UI Software Engineer",
+      "location": "Remote",
+      "activities": "Development of components and apps used for the transmission and distribution of electricity.",
+      "logo": "assets/pictures/logos/ge-logo.webp"
+    },
+    {
+      "id": 2,
+      "name": "Curzor",
+      "position": "JavaScript Developer",
+      "location": "Remote",
+      "activities": "Frontend and Backend development of apps for finance and manufacturing sectors.",
+      "logo": "assets/pictures/logos/curzor-logo.webp"
+    },
+    {
+      "id": 3,
+      "name": "ITP Aero",
+      "position": "Focal Point",
+      "location": "Madrid & Germany",
+      "activities": "Development of macros and apps for automate design processes.",
+      "logo": "assets/pictures/logos/itp-logo.webp"
+    }
+  ],
+
+  "schools": [
+    {
+      "id": 1,
+      "name": "Udemy",
+      "title": "Fullstack Developer Angular Developer",
+      "logo": "assets/pictures/logos/udemy-logo.webp"
+    },
+    {
+      "id": 2,
+      "name": "UC3M",
+      "title": "Master in Industrial Mechanics",
+      "logo": "assets/pictures/logos/uc3m-logo.webp"
+    },
+    {
+      "id": 3,
+      "name": "UPQ",
+      "title": "Degree in Mechatronics Engineering",
+      "logo": "assets/pictures/logos/upq-logo.webp"
+    }
+  ],
+  
+  "projects": [
+    {
+      "id": 1,
+      "name": "Web ready",
+      "desc": "Website for calendar app",
+      "img": "assets/pictures/webs/webReady.png",
+      "url": "https://ready.so/"
+    },
+    {
+      "id": 2,
+      "name": "Angular bundle",
+      "desc": "Apps developed with Angular framework",
+      "img": "assets/pictures/webs/website2.webp",
+      "url": "https://opreciaddo.github.io/angularProjects/angularProjects"
+    },
+    {
+      "id": 3,
+      "name": "React bundle",
+      "desc": "Apps developed with React framework",
+      "img": "assets/pictures/webs/website3.png",
+      "url": "#"
+    }
+  ]
+}
