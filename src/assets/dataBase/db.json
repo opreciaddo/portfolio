@@ -9,32 +9,50 @@
       },
       {
         "id": 2,
-        "snippet": "fa-solid fa-magnifying-glass",
-        "name": "Research",
-        "level": 3
-      },
-      {
-        "id": 3,
-        "snippet": "fa-solid fa-handshake",
-        "name": "Commitment",
-        "level": 3
-      },
-      {
-        "id": 4,
         "snippet": "fa-solid fa-list-check",
         "name": "Management",
         "level": 3
       },
       {
-        "id": 5,
+        "id": 3,
         "snippet": "fa-solid fa-person-chalkboard",
-        "name": "Self..._Self-taught",
+        "name": "Self-taught",
+        "level": 3
+      },
+      {
+        "id": 4,
+        "snippet": "fa-solid fa-person-walking-dashed-line-arrow-right",
+        "name": "Creative Problem Solving",
+        "level": 2
+      },
+      {
+        "id": 5,
+        "snippet": "fa-solid fa-magnifying-glass",
+        "name": "Research",
         "level": 3
       },
       {
         "id": 6,
-        "snippet": "fa-solid fa-person-walking-dashed-line-arrow-right",
-        "name": "Creative..._Creative Problem Solving",
+        "snippet": "fa-solid fa-handshake",
+        "name": "Commitment",
+        "level": 3
+      },
+      {
+        "id": 7,
+        "snippet": "fa-solid fa-arrow-trend-up",
+        "name": "Resilience",
+        "level": 3
+      },
+      {
+        "id": 8,
+        "snippet": "fa-solid fa-shield-heart",
+        "name": "Courage",
+        "level": 3
+      },
+      {
+        "id": 9,
+        "snippet": "fa-solid fa-bullseye",
+        "name": "Determination",
         "level": 2
       }
     ],
@@ -53,60 +71,84 @@
       },
       {
         "id": 3,
+        "snippet": "fa-brands fa-git-alt",
+        "name": "Git & GitHub",
+        "level": 2
+      },
+      {
+        "id": 4,
         "snippet": "fa-brands fa-js",
         "name": "JavaScript",
         "level": 3
       },
       {
-        "id": 4,
+        "id": 5,
         "snippet": "alt_https://img.icons8.com/ios-filled/24/3F3F3F/typescript.png",
         "name": "TypeScript",
         "level": 2
       },
       {
-        "id": 5,
-        "snippet": "fa-regular fa-file-code",
-        "name": "HTML..._HTML & CSS",
-        "level": 3
-      },
-      {
         "id": 6,
-        "snippet": "fa-brands fa-node-js",
-        "name": "NodeJS",
+        "snippet": "fa-solid fa-water",
+        "name": "Tailwind",
         "level": 2
       },
       {
         "id": 7,
-        "snippet": "fa-brands fa-git-alt",
-        "name": "Git..._Git & GitHub",
-        "level": 2
-      },
-      {
-        "id": 8,
         "snippet": "fa-brands fa-bootstrap",
         "name": "Bootstrap",
         "level": 2
       },
       {
-        "id": 9,
+        "id": 8,
         "snippet": "fa-brands fa-figma",
         "name": "Figma",
         "level": 2
       },
       {
         "id": 9,
+        "snippet": "fa-regular fa-file-code",
+        "name": "HTML & CSS",
+        "level": 3
+      },
+      {
+        "id": 10,
+        "snippet": "fa-brands fa-node-js",
+        "name": "NodeJS",
+        "level": 2
+      },
+      {
+        "id": 11,
+        "snippet": "fa-brands fa-galactic-republic",
+        "name": "Jasmine",
+        "level": 2
+      },
+      {
+        "id": 12,
+        "snippet": "fa-solid fa-database",
+        "name": "GraphQL",
+        "level": 1
+      },
+      {
+        "id": 13,
+        "snippet": "fa-brands fa-envira",
+        "name": "MongoDB",
+        "level": 1
+      },
+      {
+        "id": 14,
         "snippet": "fa-solid fa-paintbrush",
         "name": "Illustrator",
         "level": 2
       },
       {
-        "id": 10,
+        "id": 15,
         "snippet": "alt_https://img.icons8.com/ios-glyphs/24/3F3F3F/chatgpt.png",
         "name": "ChatGPT",
         "level": 2
       },
       {
-        "id": 11,
+        "id": 16,
         "snippet": "alt_https://img.icons8.com/fluency-systems-regular/24/3F3F3F/sail-boat.png",
         "name": "Midjourney",
         "level": 2
@@ -115,14 +157,8 @@
     "learning": [
       {
         "id": 1,
-        "snippet": "fa-solid fa-robot",
-        "name": "AI..._Artificial Intelligence",
-        "level": 0
-      },
-      {
-        "id": 2,
         "snippet": "fa-brands fa-ethereum",
-        "name": "Web3",
+        "name": "Blockchain",
         "level": 0
       }
     ]

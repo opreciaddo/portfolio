@@ -10,6 +10,8 @@ import SkillIcon from '../SkillIcon/SkillIcon.component';
 type CandoCardProps = {}
 
 const CandoCard: FC<CandoCardProps> = () => {
+
+  const { skills } = data;
   
   return (
     <div className="CandoCard">
@@ -59,8 +61,10 @@ const CandoCard: FC<CandoCardProps> = () => {
               <h4>Soft Skills</h4>
             </div>
             <div className="skills-content">
-              {}
-              <SkillIcon />
+              {
+                /* SkillIcon Component */
+                skills.soft.map(softSkill => (<SkillIcon key={softSkill.id} skillObject={softSkill} />))
+              }
             </div>
           </div>
           
@@ -70,7 +74,10 @@ const CandoCard: FC<CandoCardProps> = () => {
               <h4>Hard Skills</h4>
             </div>
             <div className="skills-content">
-              <SkillIcon />
+              {
+                /* SkillIcon Component */
+                skills.hard.map(hardSkill => (<SkillIcon key={hardSkill.id} skillObject={hardSkill} />))
+              }
             </div>
           </div>
         </div>
@@ -81,7 +88,10 @@ const CandoCard: FC<CandoCardProps> = () => {
             <h4>Learning Skills</h4>
           </div>
           <div className="skills-content">
-            <SkillIcon />
+            {
+              /* SkillIcon Component */
+              skills.learning.map(learningSkill => (<SkillIcon key={learningSkill.id} skillObject={learningSkill} />))
+            }
           </div>
         </div>
       </div>

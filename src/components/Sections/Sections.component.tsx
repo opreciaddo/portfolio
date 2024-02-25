@@ -18,6 +18,18 @@ const Sections: FC<SectionsProps> = () => {
       <section id="canDo" className="d-flex justify-content-start top-gap">
         <CandoCard />
       </section>
+      <section id="contributedIn" className="d-flex justify-content-start top-gap">
+        
+      </section>
+      <section id="trainedBy" className="d-flex justify-content-start top-gap">
+        
+      </section>
+      <section id="projectsDone" className="d-flex justify-content-start top-gap">
+        
+      </section>
+      <section id="letsTalk" className="d-flex justify-content-start top-gap" style={{marginBottom: '0px'}}>
+        
+      </section>
     </div>
   );
 }

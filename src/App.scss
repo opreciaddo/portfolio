@@ -11,3 +11,21 @@
   position: relative;
   top: -87px;
 }
+
+.container-title {
+  margin-bottom: 48px;
+  border-left: 2px solid;
+  line-height: 10px;
+  border-image: linear-gradient(to top, var(--bs-dgray) 0%, var(--bs-dgray) 35%, var(--bs-3rd) 35%, var(--bs-3rd) 100%) 4;
+
+  #title {
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+
+  #subtitle {
+    margin-left: 8px;
+    margin-bottom: 0;
+    color: var(--bs-gray);
+  }
+}

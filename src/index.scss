@@ -33,7 +33,23 @@
     color: var(--bs-dgray);
   }
 
+  h2 {
+    font-size: 23px;
+    color: var(--bs-dgray);
+  }
+
+  h4 {
+    font-size: 16px;
+    color: var(--bs-dgray);
+  }
+
   p {
     font-size: 13px;
+    color: var(--bs-dgray);
+  }
+
+  small {
+    font-size: 8px;
+    color: var(--bs-dgray);
   }
 }

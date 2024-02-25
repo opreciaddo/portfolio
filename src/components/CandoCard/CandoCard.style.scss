@@ -1,3 +1,66 @@
 .CandoCard {
   width: 100%;
+
+  .container-field {
+    margin-bottom: 32px;
+    padding: 0 16px;
+
+    .field-title {
+
+      i {
+        color: var(--bs-3rd);
+      }
+
+      h4 {
+        display: inline;
+        margin-left: 8px;
+        color: var(--bs-2nd);
+      }
+    }
+
+    .field-content {
+      text-align: justify;
+    }
+  }
+
+  .skills-section {
+
+    .flip-card {
+
+      .front {
+
+      }
+
+      .back {
+
+      }
+    }
+
+    .container-skills {
+      margin-bottom: 32px;
+      padding: 0px 16px;
+
+      .skills-title {
+        margin-bottom: 24px;
+
+        i {
+          color: var(--bs-3rd);
+        }
+
+        h4 {
+          display: inline;
+          margin-left: 8px;
+          color: var(--bs-2nd);
+        }
+      }
+
+      .skills-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+      }
+    }
+  }
 }
