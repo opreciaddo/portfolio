@@ -1,9 +1,9 @@
 // Styles
 import './App.scss';
 // Components
-import HeaderBkg from './components/HeaderBkg/HeaderBkg.component';
-import FooterBkg from './components/FooterBkg/FooterBkg.component';
-import Navbar from './components/Navbar/Navbar.component';
+import HeaderBkg from './shared/HeaderBkg/HeaderBkg.component';
+import FooterBkg from './shared/FooterBkg/FooterBkg.component';
+import Navbar from './shared/Navbar/Navbar.component';
 import Sections from './components/Sections/Sections.component';
 
 
