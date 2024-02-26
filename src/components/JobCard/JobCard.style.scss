@@ -1,0 +1,12 @@
+.JobCard {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  .container-companies {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}

@@ -164,14 +164,14 @@
     ]
   },
 
-  "company": [
+  "companies": [
     {
       "id": 1,
       "name": "GE Digital",
       "position": "UI Software Engineer",
       "location": "Remote",
       "activities": "Development of components and apps used for the transmission and distribution of electricity.",
-      "logo": "assets/pictures/logos/ge-logo.webp"
+      "logo": "ge"
     },
     {
       "id": 2,
@@ -179,7 +179,7 @@
       "position": "JavaScript Developer",
       "location": "Remote",
       "activities": "Frontend and Backend development of apps for finance and manufacturing sectors.",
-      "logo": "assets/pictures/logos/curzor-logo.webp"
+      "logo": "curzor"
     },
     {
       "id": 3,
@@ -187,7 +187,7 @@
       "position": "Focal Point",
       "location": "Madrid & Germany",
       "activities": "Development of macros and apps for automate design processes.",
-      "logo": "assets/pictures/logos/itp-logo.webp"
+      "logo": "itp"
     }
   ],
 
@@ -196,19 +196,19 @@
       "id": 1,
       "name": "Udemy",
       "title": "Fullstack Developer Angular Developer",
-      "logo": "assets/pictures/logos/udemy-logo.webp"
+      "logo": "udemy"
     },
     {
       "id": 2,
       "name": "UC3M",
       "title": "Master in Industrial Mechanics",
-      "logo": "assets/pictures/logos/uc3m-logo.webp"
+      "logo": "uc3m"
     },
     {
       "id": 3,
       "name": "UPQ",
       "title": "Degree in Mechatronics Engineering",
-      "logo": "assets/pictures/logos/upq-logo.webp"
+      "logo": "upq"
     }
   ],
   
@@ -217,21 +217,21 @@
       "id": 1,
       "name": "Web ready",
       "desc": "Website for calendar app",
-      "img": "assets/pictures/webs/webReady.png",
+      "img": "webready",
       "url": "https://ready.so/"
     },
     {
       "id": 2,
       "name": "Angular bundle",
       "desc": "Apps developed with Angular framework",
-      "img": "assets/pictures/webs/website2.webp",
+      "img": "angular",
       "url": "https://opreciaddo.github.io/angularProjects/angularProjects"
     },
     {
       "id": 3,
       "name": "React bundle",
       "desc": "Apps developed with React framework",
-      "img": "assets/pictures/webs/website3.png",
+      "img": "react",
       "url": "#"
     }
   ]

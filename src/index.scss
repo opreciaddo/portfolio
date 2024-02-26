@@ -4,11 +4,11 @@
   --bs-3rd: #17F2BA;
   --bs-4th: #96F5D9;
   --bs-5th: #A6D3FF;
-  --bs-white: #FFF;
+  --bs-white: #FFF !important;
   --bs-lgray: #EDEDED;
-  --bs-gray: #AAAAAA;
+  --bs-gray: #AAAAAA !important;
   --bs-dgray: #3F3F3F;
-  --bs-black: #000;
+  --bs-black: #000 !important;
   
   --bs-body-color: #212529 !important;
 
@@ -29,27 +29,31 @@
 
   h1 {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--bs-dgray);
   }
 
   h2 {
     font-size: 23px;
+    font-weight: 400;
     color: var(--bs-dgray);
   }
 
   h4 {
     font-size: 16px;
+    font-weight: 400;
     color: var(--bs-dgray);
   }
 
   p {
     font-size: 13px;
+    font-weight: 400;
     color: var(--bs-dgray);
   }
 
   small {
     font-size: 8px;
+    font-weight: 400;
     color: var(--bs-dgray);
   }
 }

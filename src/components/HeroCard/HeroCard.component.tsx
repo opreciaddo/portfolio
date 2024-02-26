@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 // Pictures
-import profilePicture from '../../assets/profile/profilePicture.webp';
+import profilePicture from '../../assets/pictures/profile/profilePicture.webp';
 // Styles
 import './HeroCard.style.scss';
 
