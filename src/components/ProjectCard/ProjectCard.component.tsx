@@ -36,8 +36,6 @@ const ProjectCard: FC<ProjectCardProps> = ({ projectObject }) => {
 
   const { id, name, desc, img, url } = projectObject;
 
-  console.log(img);
-
   return (
     <div className='ProjectCard'>
       <div className="card card-has-bg" style={{backgroundImage: `url(${Picture[img]})`}}>

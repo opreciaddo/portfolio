@@ -1,0 +1,70 @@
+.Form {
+  text-align: start;
+
+  input {
+    box-shadow: inset 2px 2px 5px var(--bs-gray), inset -5px -5px 10px var(--bs-white);
+    width: 100%;
+    transition: all .2s ease-in-out;
+
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 16px;
+    color: var(--bs-2nd);
+    background-color: var(--bs-lgray);
+    text-shadow: 1px 1px 0 var(--bs-white);
+
+    &:focus {
+      box-shadow: inset 1px 1px 2px var(--bs-dgray), inset -1px -1px 2px var(--bs-white);
+    }
+
+    &::placeholder {
+      color: var(--bs-gray);
+    }
+  }
+
+  textarea {
+    resize: none;
+    box-shadow: inset 2px 2px 5px var(--bs-gray), inset -5px -5px 10px #fff;
+    width: 100%;
+    transition: all .2s ease-in-out;
+
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 16px;
+    color: var(--bs-2nd);
+    background-color: var(--bs-lgray);
+    text-shadow: 1px 1px 0 white;
+
+    &:focus {
+      box-shadow: inset 1px 1px 2px var(--bs-dgray), inset -1px -1px 2px var(--bs-white);
+    }
+
+    &::placeholder {
+      color: var(--bs-gray);
+    }
+  }
+
+  button {
+    min-width: 80px;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    color: var(--bs-3rd);
+    background-color: var(--bs-lgray);
+    font-weight: 700;
+    box-shadow: #63636333 0 2px 8px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+
+    &:disabled {
+      color: var(--bs-gray);
+      box-shadow: none;
+      font-weight: 400;
+      cursor: not-allowed;
+    }
+  }
+}
