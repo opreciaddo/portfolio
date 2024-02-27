@@ -7,7 +7,7 @@ import CandoCard from '../CandoCard/CandoCard.component';
 import JobCard from '../JobCard/JobCard.component';
 import TrainedCard from '../TrainedCard/TrainedCard.component';
 import ProjectsSection from '../ProjectsSection/ProjectsSection.component';
-import Contact from '../Contact/Contact.component';
+import ContactSection from '../ContactSection/ContactSection.component';
 
 
 type SectionsProps = {}
@@ -32,7 +32,7 @@ const Sections: FC<SectionsProps> = () => {
         <ProjectsSection />
       </section>
       <section id="letsTalk" className="d-flex justify-content-start top-gap" style={{marginBottom: '0px'}}>
-        <Contact />
+        <ContactSection />
       </section>
     </div>
   );

@@ -1,0 +1,10 @@
+.ContactSection {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  .container {
+    margin-bottom: 16px;
+    padding: 0;
+  }
+}
