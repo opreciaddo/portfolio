@@ -6,9 +6,11 @@ import { Spinner } from 'react-bootstrap';
 import Form from '../Form/Form.component';
 
 
-type ContactFormProps = {}
+type ContactFormProps = {
+  resumeDownload?: boolean;
+}
 
-const ContactForm: FC<ContactFormProps> = () => {
+const ContactForm: FC<ContactFormProps> = ({ resumeDownload }) => {
 
   const [loading, setLoading] = useState(false);
 
@@ -22,7 +24,7 @@ const ContactForm: FC<ContactFormProps> = () => {
       {
         loading
         ? <Spinner animation='grow' />
-        : <Form loadingState={handleForLoading} />
+        : <Form loadingState={handleForLoading} resumeDownload={resumeDownload} />
       }
     </div>
   );

@@ -1,0 +1,35 @@
+.ResumeModal {}
+
+.modal {
+ padding-right: 0px !important;
+}
+
+.modal-content {
+  background-color: var(--bs-lgray) !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.text-container-cv-download {
+  margin-bottom: 32px;
+  text-align: center;
+  color: var(--bs-gray);
+
+  #title {
+    margin-bottom: 16px;
+  
+    #download-cv {
+      color: var(--bs-2nd);
+    }
+  }
+
+  #subtitle {
+    display: block;
+  }
+
+  #download-icon {
+    color: var(--bs-2nd);
+  }
+}

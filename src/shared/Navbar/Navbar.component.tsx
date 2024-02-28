@@ -1,13 +1,22 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 // Pictures
 import logo from '../../assets/icons/icono.svg';
 // Styles
 import './Navbar.style.scss';
+// Components
+import ResumeModal from '../ResumeModal/ResumeModal.component';
 
 
 type NavbarProps = {}
 
 const Navbar: FC<NavbarProps> = () => {
+
+  const [modalOpen, setModalOpen] = useState(false);
+  
+  const modalHandler = (modal: boolean): void => {
+
+    setModalOpen(modal);
+  };
   
   return (
     <div className="Navbar">
@@ -21,7 +30,7 @@ const Navbar: FC<NavbarProps> = () => {
           <div id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a data-bs-toggle="modal" data-bs-target="#cv-modal" className="nav-link">
+                <a className="nav-link" onClick={() => setModalOpen(true)}>
                   <i className="fa-regular fa-file-lines fa-xl" aria-hidden="true"></i>
                 </a>
               </li>
@@ -34,6 +43,8 @@ const Navbar: FC<NavbarProps> = () => {
           </div>
         </div>
       </nav>
+
+      <ResumeModal openModal={modalOpen} changeModal={modalHandler} />
     </div>
   );
 }

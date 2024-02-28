@@ -7,6 +7,7 @@ import './Form.style.scss';
 
 type FormProps = {
   loadingState: (loading: boolean) => void;
+  resumeDownload?: boolean;
 }
 
 const defaultFormFields = {
@@ -17,7 +18,7 @@ const defaultFormFields = {
   emailTouched: false,
 }
 
-const Form: FC<FormProps> = ({ loadingState }) => {
+const Form: FC<FormProps> = ({ loadingState, resumeDownload }) => {
 
   // Campos de Formulario
   const [formFields, setFormFields ] = useState(defaultFormFields);
@@ -51,6 +52,13 @@ const Form: FC<FormProps> = ({ loadingState }) => {
         .then(response => {
 
           loadingState(false);
+
+          if (resumeDownload) {
+            
+            const link = document.getElementById('download-link');
+            link?.click();
+          }
+          
           console.log(response);
         })
         .catch(error => {
@@ -121,6 +129,8 @@ const Form: FC<FormProps> = ({ loadingState }) => {
         </div>
         <button type="submit" disabled={!buttonDisable()}>Send</button>
       </form>
+
+      <a href='/static/OmarPreciado_CV.pdf' id='download-link' style={{display: 'none'}} download='OmarPreciado_CV.pdf' ></a>
     </div>
   );
 };
