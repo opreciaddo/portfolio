@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/opreciaddo/portfolio/static/css/main.ee7b92ab.css",
+    "main.js": "/opreciaddo/portfolio/static/js/main.d6142ff5.js",
+    "static/js/453.1407b060.chunk.js": "/opreciaddo/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/hero-image.webp": "/opreciaddo/portfolio/static/media/hero-image.d89cf3ecf79f467304da.webp",
+    "static/media/uc3m-logo.webp": "/opreciaddo/portfolio/static/media/uc3m-logo.d7f1694f7fa498d37a34.webp",
+    "static/media/profilePicture.webp": "/opreciaddo/portfolio/static/media/profilePicture.d29e7e824624cf49b2ba.webp",
+    "static/media/react.webp": "/opreciaddo/portfolio/static/media/react.d2ec0493a1800696df8a.webp",
+    "static/media/upq-logo.webp": "/opreciaddo/portfolio/static/media/upq-logo.6186a632a720486a1019.webp",
+    "static/media/angular.webp": "/opreciaddo/portfolio/static/media/angular.8d96178fbead36bb929d.webp",
+    "static/media/webReady.webp": "/opreciaddo/portfolio/static/media/webReady.d1aa04f2003aa562f099.webp",
+    "static/media/itp-logo.webp": "/opreciaddo/portfolio/static/media/itp-logo.85f213e97a2f4c8cfc8c.webp",
+    "static/media/udemy-logo.webp": "/opreciaddo/portfolio/static/media/udemy-logo.4afc6dd1905a5103a80a.webp",
+    "static/media/ge-logo.webp": "/opreciaddo/portfolio/static/media/ge-logo.0080fa1c0be0c68cc080.webp",
+    "static/media/curzor-logo.webp": "/opreciaddo/portfolio/static/media/curzor-logo.91ba45aa86cd5f18c2c6.webp",
+    "static/media/icono.svg": "/opreciaddo/portfolio/static/media/icono.8bc244642880e787775344c45bd86e53.svg",
+    "index.html": "/opreciaddo/portfolio/index.html",
+    "main.ee7b92ab.css.map": "/opreciaddo/portfolio/static/css/main.ee7b92ab.css.map",
+    "main.d6142ff5.js.map": "/opreciaddo/portfolio/static/js/main.d6142ff5.js.map",
+    "453.1407b060.chunk.js.map": "/opreciaddo/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee7b92ab.css",
+    "static/js/main.d6142ff5.js"
+  ]
+}
