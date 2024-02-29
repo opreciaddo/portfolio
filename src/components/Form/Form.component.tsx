@@ -137,7 +137,7 @@ const Form: FC<FormProps> = ({ loadingState }) => {
         <button type="submit" disabled={!buttonDisable()}>Send</button>
       </form>
           
-      <a href='/static/OmarPreciado_CV.pdf' id='download-link' style={{display: 'none'}} download='OmarPreciado_CV.pdf' ></a>
+      <a href='/portfolio/static/OmarPreciado_CV.pdf' id='download-link' style={{display: 'none'}} download='OmarPreciado_CV.pdf' ></a>
     </div>
   );
 };
