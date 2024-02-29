@@ -1,40 +1,35 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, { FC, useEffect, useContext } from 'react';
 // Styles
 import './ResumeModal.style.scss';
+// Contexts
+import { GlobalContext } from '../../contexts/global.context';
 // Components
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import ContactForm from '../../components/ContactForm/ContactForm.component';
 
 
-type ResumeModalProps = {
-  openModal: boolean;
-  changeModal: (modal: boolean) => void;
-}
+type ResumeModalProps = {}
 
-const ResumeModal: FC<ResumeModalProps> = ({ openModal, changeModal }) => {
-
-  const [show, setShow] = useState(false);
-  const [resume, setResume] = useState(true);
+const ResumeModal: FC<ResumeModalProps> = () => {
+  
+  const { isModalOpen, setModalOpen, setIsFormInModal } = useContext(GlobalContext);
 
   useEffect(() => {
     
-    setShow(openModal);
-
-    if (openModal === true) {
-      setResume(true);
+    if (isModalOpen) {
+      setIsFormInModal(true);
     }
-  }, [openModal]);
+  }, [isModalOpen]);
   
+  // Cierra Modal
   const closeModal = () => {
 
-    setShow(false);
-    changeModal(false);
-    setResume(false);
+    setModalOpen(false);
   }
 
   return (
     <div className='ResumeModal'>
-      <Modal show={show} fullscreen={true} onHide={closeModal}>
+      <Modal show={isModalOpen} fullscreen={true} onHide={closeModal}>
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body className='d-flex flex-grow-1'>  
           <div className="container-fluid d-flex flex-column flex-nowrap align-items-center justify-content-center">
@@ -49,7 +44,7 @@ const ResumeModal: FC<ResumeModalProps> = ({ openModal, changeModal }) => {
               </span>
             </div>
 
-            <ContactForm resumeDownload={resume} />
+            <ContactForm />
           
           </div>
         </Modal.Body>

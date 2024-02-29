@@ -1,6 +1,8 @@
-import React, { FC, useState } from 'react';
+import React, { FC, useContext } from 'react';
 // Pictures
 import logo from '../../assets/icons/icono.svg';
+// Contexts
+import { GlobalContext } from '../../contexts/global.context';
 // Styles
 import './Navbar.style.scss';
 // Components
@@ -11,12 +13,12 @@ type NavbarProps = {}
 
 const Navbar: FC<NavbarProps> = () => {
 
-  const [modalOpen, setModalOpen] = useState(false);
-  
-  const modalHandler = (modal: boolean): void => {
+  const { setModalOpen } = useContext(GlobalContext);
 
-    setModalOpen(modal);
-  };
+  const openModal = () => {
+
+    setModalOpen(true);
+  }
   
   return (
     <div className="Navbar">
@@ -30,7 +32,7 @@ const Navbar: FC<NavbarProps> = () => {
           <div id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" onClick={() => setModalOpen(true)}>
+                <a className="nav-link" onClick={openModal}>
                   <i className="fa-regular fa-file-lines fa-xl" aria-hidden="true"></i>
                 </a>
               </li>
@@ -44,7 +46,7 @@ const Navbar: FC<NavbarProps> = () => {
         </div>
       </nav>
 
-      <ResumeModal openModal={modalOpen} changeModal={modalHandler} />
+      <ResumeModal />
     </div>
   );
 }

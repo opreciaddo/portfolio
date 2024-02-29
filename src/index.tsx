@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Contexts
+import { GlobalProvider } from './contexts/global.context';
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+// Styles
+import './index.scss';
 
 
 const root = ReactDOM.createRoot(
@@ -12,7 +15,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalProvider>
+      <App />
+    </GlobalProvider>
   </React.StrictMode>
 );
 

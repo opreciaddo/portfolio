@@ -1,4 +1,6 @@
-import React, { FC, useState } from 'react';
+import React, { FC, useState, useContext } from 'react';
+// Contexts
+import { GlobalContext } from '../../contexts/global.context';
 // Axios
 import axios from 'axios';
 // Styles
@@ -7,7 +9,6 @@ import './Form.style.scss';
 
 type FormProps = {
   loadingState: (loading: boolean) => void;
-  resumeDownload?: boolean;
 }
 
 const defaultFormFields = {
@@ -15,14 +16,16 @@ const defaultFormFields = {
   email: '',
   message: '',
   nameTouched: false,
-  emailTouched: false,
+  emailTouched: false
 }
 
-const Form: FC<FormProps> = ({ loadingState, resumeDownload }) => {
+const Form: FC<FormProps> = ({ loadingState }) => {
 
   // Campos de Formulario
   const [formFields, setFormFields ] = useState(defaultFormFields);
   const { name , email, message, nameTouched, emailTouched } = formFields;
+
+  const { setModalOpen, isFormInModal, setIsFormInModal } = useContext(GlobalContext);
 
   // Obtiene los valores de <inputs /> y <text />, y actualiza 'formFields'
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -53,10 +56,13 @@ const Form: FC<FormProps> = ({ loadingState, resumeDownload }) => {
 
           loadingState(false);
 
-          if (resumeDownload) {
+          if (isFormInModal) {
             
             const link = document.getElementById('download-link');
             link?.click();
+
+            setIsFormInModal(false);
+            setModalOpen(false);
           }
           
           console.log(response);
@@ -109,6 +115,7 @@ const Form: FC<FormProps> = ({ loadingState, resumeDownload }) => {
 
   return (
     <div className='Form'>
+
       <form autoComplete="off" onSubmit={handleSubmit}>
         <div className="mb-3">
           <input type="text" name="name" value={name} placeholder="Name" onChange={handleInputChange} onBlur={handleTouched} />
@@ -129,7 +136,7 @@ const Form: FC<FormProps> = ({ loadingState, resumeDownload }) => {
         </div>
         <button type="submit" disabled={!buttonDisable()}>Send</button>
       </form>
-
+          
       <a href='/static/OmarPreciado_CV.pdf' id='download-link' style={{display: 'none'}} download='OmarPreciado_CV.pdf' ></a>
     </div>
   );
