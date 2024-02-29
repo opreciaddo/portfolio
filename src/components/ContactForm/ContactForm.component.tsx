@@ -27,6 +27,16 @@ const ContactForm: FC<ContactFormProps> = ({ resumeDownload }) => {
         : <Form loadingState={handleForLoading} resumeDownload={resumeDownload} />
       }
     </div>
+
+    /* 
+      TODO: Saludo de Form submitido
+      
+      <div className="container-form-sent-message">
+        <h3 id="title">Hi <span id="contact-name">dsdsd</span>,</h3>
+        <p id="subtitle">You will hear from me soon...</p>
+        <span id="hi-icon"><i className="fa-regular fa-hand-peace fa-2xl" aria-hidden="true"></i></span>
+      </div>
+    */
   );
 };
 
