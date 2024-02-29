@@ -11,4 +11,16 @@
     align-items: center;
     gap: 24px;
   }
+
+  
+  @media (min-width: 768px) {
+
+    .container-schools {
+      justify-content: center;
+      align-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 48px;
+    }
+  }
 }

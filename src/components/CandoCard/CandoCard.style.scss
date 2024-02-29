@@ -25,17 +25,6 @@
 
   .skills-section {
 
-    .flip-card {
-
-      .front {
-
-      }
-
-      .back {
-
-      }
-    }
-
     .container-skills {
       margin-bottom: 32px;
       padding: 0px 16px;
@@ -60,6 +49,60 @@
         justify-content: center;
         align-items: center;
         gap: 24px;
+      }
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    
+    .skills-section {
+      gap: 180px;
+
+      .flip-card {
+        position: relative;
+        width: 410px;
+        min-height: 474px;
+        margin-bottom: 16px;
+        padding: 0;
+
+        .front {
+          transform: perspective(1000px) rotateY(0);
+        }
+
+        .back {
+          // min-height: 680px;
+          transform: perspective(1000px) rotateY(180deg);
+        }
+
+        &:hover .front {
+          transform: perspective(1000px) rotateY(180deg);
+        }
+
+        &:hover {
+          min-height: 680px;
+        }
+
+        &:hover .back {
+          transform: perspective(1000px) rotateY(360deg);
+        }
+
+        .container-skills {
+          position: absolute;
+          width: 100%;
+          margin-bottom: 0;
+          padding: 32px;
+          border-radius: 8px;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          background: white;
+          box-shadow: #00000040 0 14px 28px, #00000038 0 10px 10px;
+          transition: 1s;
+
+          .skills-content {
+            gap: 16px;
+          }
+        }
       }
     }
   }

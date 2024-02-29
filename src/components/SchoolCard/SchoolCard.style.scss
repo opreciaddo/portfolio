@@ -2,7 +2,7 @@
 
   .container {
     max-width: 160px;
-    padding: 0;
+    padding: 0 !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +33,27 @@
 
       #school-title {
         color: var(--bs-dgray);
+      }
+    }
+  }
+
+
+  @media (min-width: 768px) {
+
+    .container {
+      max-width: 244px;
+
+      .school-logo {
+
+        .logo-square {
+          width: 80px;
+          height: 80px;
+        }
+  
+        .logo-rectangle {
+          width: 162px;
+          height: 80px;
+        }
       }
     }
   }

@@ -4,7 +4,7 @@
   .container {
     width: 234px;
     height: 127px;
-    padding: 0;
+    padding: 0 !important;
     display: flex;
     align-items: center;
     position: relative;
@@ -63,6 +63,37 @@
       #company-activities {
         font-size: 8px;
         color: var(--bs-dgray);
+      }
+    }
+  }
+
+
+  @media (min-width: 768px) {
+
+    .container {
+      width: 307px;
+      height: 166px;
+
+      .company-logo {
+        width: 76px;
+        height: 123px;
+        border-radius: 8px;
+
+        .logo-square {
+          width: 45px;
+          height: 45px;
+        }
+
+        .logo-rectangle {
+          width: 67px;
+          height: 18px;
+        }
+      }
+
+      .container-info {
+        width: 269px;
+        height: 166px;
+        border-radius: 8px;
       }
     }
   }

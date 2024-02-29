@@ -56,4 +56,29 @@
     font-weight: 400;
     color: var(--bs-dgray);
   }
+
+  
+  @media (min-width: 768px) {
+
+    h1 {
+      font-size: 33px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    h4 {
+      font-size: 19px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    small {
+      font-size: 13px;
+    }
+  }
+    
 }
