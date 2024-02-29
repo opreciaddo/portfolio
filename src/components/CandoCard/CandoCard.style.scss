@@ -55,6 +55,16 @@
 
 
   @media (min-width: 768px) {
+
+    .container-field {
+
+      .field-content {
+
+        p {
+          max-width: 460px;
+        }
+      }
+    }
     
     .skills-section {
       gap: 180px;
@@ -62,7 +72,7 @@
       .flip-card {
         position: relative;
         width: 410px;
-        min-height: 474px;
+        min-height: 405px;
         margin-bottom: 16px;
         padding: 0;
 
@@ -80,7 +90,7 @@
         }
 
         &:hover {
-          min-height: 680px;
+          min-height: 660px;
         }
 
         &:hover .back {

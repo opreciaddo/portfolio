@@ -47,9 +47,26 @@
       color: var(--bs-3rd);
     }
 
-    #project-desc{
+    #project-desc {
       font-size: 8px;
       color: var(--bs-white);
+    }
+  }
+
+
+  @media (min-width: 768px) {
+
+    .card {
+      width: 307px;
+      height: 190px;
+      border-radius: 8px;
+    }
+
+    .card-footer {
+  
+      #project-desc {
+        font-size: 11px;
+      }
     }
   }
 }

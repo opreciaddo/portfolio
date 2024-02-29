@@ -29,4 +29,12 @@
     display: block;
     color: var(--bs-dgray);
   }
+
+
+  @media (min-width: 768px) {
+
+    #profile-description {
+      max-width: 750px;
+    }
+  }
 }
