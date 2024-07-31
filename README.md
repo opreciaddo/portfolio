@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Blockchain**
 
-- 👨‍💻 All of my projects are available at my [portfolio](https://opreciaddo-portfolio.netlify.app)
+- 👨‍💻 All of my projects are available at my [portfolio](https://opreciaddo.github.io/portfolio/)
 
 - 📫 How to reach me **o.preciaddo@gmail.com**
 
