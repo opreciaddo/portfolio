@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Omar Preciado</h1>
-<h3 align="center">A passionate software developer</h3>
+<h3 align="center">Software Engineer</h3>
 
-- 🔭 I’m currently working on **GE Digital**
+- 🔭 I’m currently working at **GE Digital**
 
-- 🌱 I’m currently learning **Blockchain**
+- 🌱 I’m currently learning **Blockchain** & **AI**
 
 - 👨‍💻 All of my projects are available at my [portfolio](https://opreciaddo.github.io/portfolio/)
 
