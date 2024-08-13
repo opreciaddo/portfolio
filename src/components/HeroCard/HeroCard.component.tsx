@@ -14,7 +14,7 @@ const HeroCard: FC<HeroCardProps> = () => {
 
       <img src={profilePicture} alt="profile" className="profile-item" />
       <h1 className="profile-item">Omar Preciado</h1>
-      <p id="profile-title" className="profile-item">Software Developer</p>
+      <p id="profile-title" className="profile-item">Software Engineer</p>
 
       <div id="icons" className="profile-item">
         <span><i className="fa-solid fa-laptop-code fa-xl" aria-hidden="true"></i></span>
@@ -22,9 +22,11 @@ const HeroCard: FC<HeroCardProps> = () => {
       </div>
 
       <p id="profile-description" className="profile-item">
-        I am an engineer passionate about understanding how the things work and how can be improved. 
-        The Programming subjects captured my interest since the beginning of my academic education. 
-        That is why, my attention is focused to this field.
+        I'm an engineer passionate about creating new software. 
+        Throughout my 5 years of development experience, 
+        I've worked from startups to big companies, building products from
+        the ground up or implementing new features.
+        I consider myself creative and efficient.
       </p>
   
     </div>

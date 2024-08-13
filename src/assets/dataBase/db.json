@@ -54,6 +54,18 @@
         "snippet": "fa-solid fa-bullseye",
         "name": "Determination",
         "level": 2
+      },
+      {
+        "id": 10,
+        "snippet": "fa-solid fa-people-pulling",
+        "name": "Team work",
+        "level": 3
+      },
+      {
+        "id": 11,
+        "snippet": "fa-solid fa-people-line",
+        "name": "SCRUM",
+        "level": 2
       }
     ],
     "hard": [
@@ -71,87 +83,111 @@
       },
       {
         "id": 3,
-        "snippet": "fa-brands fa-git-alt",
-        "name": "Git & GitHub",
-        "level": 2
-      },
-      {
-        "id": 4,
         "snippet": "fa-brands fa-js",
         "name": "JavaScript",
         "level": 3
       },
       {
-        "id": 5,
+        "id": 4,
         "snippet": "alt_https://img.icons8.com/ios-filled/24/3F3F3F/typescript.png",
         "name": "TypeScript",
+        "level": 3
+      },
+      {
+        "id": 5,
+        "snippet": "fa-brands fa-python",
+        "name": "Python",
         "level": 2
       },
       {
         "id": 6,
-        "snippet": "fa-solid fa-water",
-        "name": "Tailwind",
-        "level": 2
-      },
-      {
-        "id": 7,
-        "snippet": "fa-brands fa-bootstrap",
-        "name": "Bootstrap",
-        "level": 2
-      },
-      {
-        "id": 8,
-        "snippet": "fa-brands fa-figma",
-        "name": "Figma",
-        "level": 2
-      },
-      {
-        "id": 9,
-        "snippet": "fa-regular fa-file-code",
-        "name": "HTML & CSS",
-        "level": 3
-      },
-      {
-        "id": 10,
         "snippet": "fa-brands fa-node-js",
         "name": "NodeJS",
         "level": 2
       },
       {
+        "id": 7,
+        "snippet": "fa-solid fa-server",
+        "name": "Express",
+        "level": 2
+      },
+      {
+        "id": 8,
+        "snippet": "alt_https://img.icons8.com/fluency-systems-regular/24/3F3F3F/nextjs.png",
+        "name": "NextJS",
+        "level": 2
+      },
+      {
+        "id": 9,
+        "snippet": "alt_https://img.icons8.com/ios/24/3F3F3F/redux.png",
+        "name": "Redux",
+        "level": 2
+      },
+      {
+        "id": 10,
+        "snippet": "fa-solid fa-network-wired",
+        "name": "Django & Flask",
+        "level": 2
+      },
+      {
         "id": 11,
-        "snippet": "fa-brands fa-galactic-republic",
-        "name": "Jasmine",
+        "snippet": "alt_https://img.icons8.com/ios/24/3F3F3F/graphql.png",
+        "name": "GraphQL",
         "level": 2
       },
       {
         "id": 12,
-        "snippet": "fa-solid fa-database",
-        "name": "GraphQL",
-        "level": 1
+        "snippet": "alt_https://img.icons8.com/ios/24/3F3F3F/postgreesql.png",
+        "name": "PostgreSQL",
+        "level": 2
       },
       {
         "id": 13,
         "snippet": "fa-brands fa-envira",
         "name": "MongoDB",
-        "level": 1
-      },
-      {
-        "id": 14,
-        "snippet": "fa-solid fa-paintbrush",
-        "name": "Illustrator",
         "level": 2
       },
       {
+        "id": 14,
+        "snippet": "fa-regular fa-file-code",
+        "name": "HTML & CSS",
+        "level": 3
+      },
+      {
         "id": 15,
-        "snippet": "alt_https://img.icons8.com/ios-glyphs/24/3F3F3F/chatgpt.png",
-        "name": "ChatGPT",
+        "snippet": "fa-solid fa-water",
+        "name": "Tailwind",
         "level": 2
       },
       {
         "id": 16,
-        "snippet": "alt_https://img.icons8.com/fluency-systems-regular/24/3F3F3F/sail-boat.png",
-        "name": "Midjourney",
+        "snippet": "fa-brands fa-bootstrap",
+        "name": "Bootstrap",
         "level": 2
+      },
+      {
+        "id": 17,
+        "snippet": "fa-brands fa-galactic-republic",
+        "name": "Jasmine & Jest",
+        "level": 2
+      },
+      {
+        "id": 18,
+        "snippet": "fa-brands fa-figma",
+        "name": "Figma",
+        "level": 2
+      },
+      {
+        "id": 19,
+        "snippet": "fa-brands fa-git-alt",
+        "name": "Git & GitHub",
+        "level": 2
+      },
+      {
+        "id": 20,
+        "snippet": "fa-brands fa-aws",
+        "name": "AWS",
+        "level": 1
       }
     ],
     "learning": [
@@ -159,7 +195,13 @@
         "id": 1,
         "snippet": "fa-brands fa-ethereum",
         "name": "Blockchain",
-        "level": 0
+        "level": 1
+      },
+      {
+        "id": 2,
+        "snippet": "fa-solid fa-robot",
+        "name": "AI",
+        "level": 1
       }
     ]
   },
@@ -195,7 +237,7 @@
     {
       "id": 1,
       "name": "Udemy",
-      "title": "Fullstack Developer Angular Developer",
+      "title": "Fullstack Developer",
       "logo": "udemy"
     },
     {
