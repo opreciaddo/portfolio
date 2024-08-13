@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.30fbf508.css",
-    "main.js": "/portfolio/static/js/main.c855e8e8.js",
+    "main.css": "/portfolio/static/css/main.cd696806.css",
+    "main.js": "/portfolio/static/js/main.8c93a1ca.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/hero-image.webp": "/portfolio/static/media/hero-image.d89cf3ecf79f467304da.webp",
     "static/media/uc3m-logo.webp": "/portfolio/static/media/uc3m-logo.d7f1694f7fa498d37a34.webp",
@@ -16,12 +16,12 @@
     "static/media/curzor-logo.webp": "/portfolio/static/media/curzor-logo.91ba45aa86cd5f18c2c6.webp",
     "static/media/icono.svg": "/portfolio/static/media/icono.8bc244642880e787775344c45bd86e53.svg",
     "index.html": "/portfolio/index.html",
-    "main.30fbf508.css.map": "/portfolio/static/css/main.30fbf508.css.map",
-    "main.c855e8e8.js.map": "/portfolio/static/js/main.c855e8e8.js.map",
+    "main.cd696806.css.map": "/portfolio/static/css/main.cd696806.css.map",
+    "main.8c93a1ca.js.map": "/portfolio/static/js/main.8c93a1ca.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30fbf508.css",
-    "static/js/main.c855e8e8.js"
+    "static/css/main.cd696806.css",
+    "static/js/main.8c93a1ca.js"
   ]
 }
